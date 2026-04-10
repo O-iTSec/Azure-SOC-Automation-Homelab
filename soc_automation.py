@@ -6,17 +6,17 @@ import msal
 # 1. CONFIGURATION & CREDENTIALS
 # ==========================================
 # Azure Service Principal Credentials
-TENANT_ID = "976b4579-b188-4687-9841-baea6972fe76"
-CLIENT_ID = "032d0e58-a706-4f26-8db6-498d790eb58b"
-CLIENT_SECRET = "RaL8Q~onu8sVgo41g~tTHAj6VrLT~qSqqwV-CbY7"
+TENANT_ID = "REDACTED_AZURE_SECRET"
+CLIENT_ID = "REDACTED_AZURE_SECRET"
+CLIENT_SECRET = "REDACTED_AZURE_SECRET"
 
 # Azure Sentinel Details
-SUBSCRIPTION_ID = "6448118d-cccb-46b0-8774-58f32d8e6edc"
+SUBSCRIPTION_ID = "REDACTED_AZURE_SECRET"
 RESOURCE_GROUP = "SOC-Homelab-RG"
 WORKSPACE_NAME = "SOC-Log-Workspace"
 
 # AI API Details (Hugging Face - Zephyr 7B)
-AI_API_KEY = "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"
+AI_API_KEY = "REDACTED_AZURE_SECRET"
 AI_API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta/v1/chat/completions"
 # ==========================================
 # 2. AUTHENTICATE TO AZURE
