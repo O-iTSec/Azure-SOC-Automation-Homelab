@@ -1,0 +1,15 @@
+
+=======================================
+🤖 AUTOMATED SOC INCIDENT TRIAGE 🤖
+=======================================
+🚨 Alert: Simulated Alert: Suspicious Local Admin Account Created
+⚠️ Severity: High
+
+🧠 AI Analyst Summary & Remediation:
+The incident indicates a critical privilege escalation attempt where an unauthorized local admin account was created to establish persistence. 
+
+Immediate Remediation Steps:
+1. Immediately disable the newly created suspicious account.
+2. Force a password reset for the compromised 'labadmin' account.
+3. Isolate the host 'Win-Victim-01' from the network to prevent lateral movement.
+=======================================
